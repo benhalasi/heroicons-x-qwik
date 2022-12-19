@@ -1,25 +1,26 @@
 {
-  "name": "heroicons-qwikjs",
+  "name": "heroicons-x-qwik",
   "version": "0.0.1",
   "description": "",
   "files": [
     "qwik/"
   ],
-  "keywords": [
-    "qwik",
-    "qwikjs",
-    "heroicons",
-    "icons"
-  ],
   "scripts": {
     "build": "node ./scripts/build-tsx.js qwik"
   },
   "author": "https://github.com/benhalasi",
+  "repository": "https://github.com/benhalasi/heroicons-x-qwik",
   "license": "MIT",
   "devDependencies": {
     "camelcase": "^6.0.0",
     "node-html-parser": "^6.1.4",
     "rimraf": "^3.0.2",
     "rollup": "^3.2.5"
-  }
+  },
+  "keywords": [
+    "qwik",
+    "qwikjs",
+    "heroicons",
+    "icons"
+  ]
 }
